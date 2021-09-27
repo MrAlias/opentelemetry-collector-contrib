@@ -56,12 +56,12 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zookeeperreceiver v0.0.0-00010101000000-000000000000
 	github.com/pavius/impi v0.0.3
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/tcnksm/ghr v0.13.0
-	go.opentelemetry.io/collector v0.17.0
+	go.opentelemetry.io/collector v0.36.0
 	go.opentelemetry.io/collector/cmd/issuegenerator v0.0.0-20201201185019-f4f68db25d1f
 	go.opentelemetry.io/collector/cmd/mdatagen v0.0.0-20201201185019-f4f68db25d1f
-	golang.org/x/sys v0.0.0-20201113233024-12cec1faf1ba
+	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1
 	honnef.co/go/tools v0.0.1-2020.1.6
 )
 

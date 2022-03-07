@@ -16,11 +16,11 @@ require (
 
 )
 
-require go.uber.org/multierr v1.7.0
+require go.uber.org/multierr v1.8.0
 
 require (
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
-	go.opentelemetry.io/otel/trace v1.2.0
+	go.opentelemetry.io/otel/trace v1.2.0 // indirect
 )
 
 require (

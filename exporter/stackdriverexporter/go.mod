@@ -27,7 +27,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
@@ -39,7 +39,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.41.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus v0.41.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/spf13/cast v1.4.1 // indirect
+	github.com/spf13/cast v1.5.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.opentelemetry.io/collector/model v0.41.1-0.20211210184707-4dcb3388a168 // indirect
 	go.opentelemetry.io/otel v1.2.0 // indirect

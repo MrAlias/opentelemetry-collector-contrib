@@ -10,7 +10,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/collectdreceiver v0.41.0
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.41.1-0.20211210184707-4dcb3388a168
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.28.1
 )
 
 require (

@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector v0.32.7
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/googlemanagedprometheus v0.32.7
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.2
 	go.opentelemetry.io/collector v0.59.1-0.20220909192754-8d66f408a79a
 )
 

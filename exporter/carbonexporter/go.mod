@@ -11,7 +11,7 @@ require (
 	go.opentelemetry.io/collector v0.59.1-0.20220909192754-8d66f408a79a
 	go.opentelemetry.io/collector/pdata v0.59.1-0.20220909192754-8d66f408a79a
 	go.uber.org/atomic v1.10.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.30.0
 
 )
 

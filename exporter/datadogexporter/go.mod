@@ -8,10 +8,10 @@ require (
 	github.com/DataDog/datadog-api-client-go/v2 v2.14.0
 	github.com/DataDog/gohai v0.0.0-20220718130825-1776f9beb9cc
 	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.5.1
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.5.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.7.1
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.5.1
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.5.1
-	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.5.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.7.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.7.1
 	github.com/DataDog/sketches-go v1.4.2
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.16.1
 	github.com/aws/aws-sdk-go v1.44.299
@@ -35,14 +35,14 @@ require (
 	go.opentelemetry.io/collector/consumer v0.81.0
 	go.opentelemetry.io/collector/exporter v0.81.0
 	go.opentelemetry.io/collector/featuregate v1.0.0-rcv0013
-	go.opentelemetry.io/collector/pdata v1.0.0-rcv0013
+	go.opentelemetry.io/collector/pdata v1.0.0-rcv0014
 	go.opentelemetry.io/collector/processor v0.81.0
 	go.opentelemetry.io/collector/processor/batchprocessor v0.81.0
 	go.opentelemetry.io/collector/receiver v0.81.0
 	go.opentelemetry.io/collector/receiver/otlpreceiver v0.81.0
-	go.opentelemetry.io/collector/semconv v0.81.0
+	go.opentelemetry.io/collector/semconv v0.82.0
 	go.uber.org/multierr v1.11.0
-	go.uber.org/zap v1.24.0
+	go.uber.org/zap v1.25.0
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/zorkian/go-datadog-api.v2 v2.30.0
@@ -55,6 +55,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.2.4-0.20230617002413-005d2dfb6b68 // indirect
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2 // indirect
 	github.com/DataDog/datadog-agent/pkg/obfuscate v0.47.0-rc.2 // indirect
+	github.com/DataDog/datadog-agent/pkg/proto v0.48.0-beta.1 // indirect
 	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.47.0-rc.2 // indirect
 	github.com/DataDog/datadog-agent/pkg/util/cgroups v0.47.0-rc.2 // indirect
 	github.com/DataDog/datadog-agent/pkg/util/log v0.47.0-rc.2 // indirect

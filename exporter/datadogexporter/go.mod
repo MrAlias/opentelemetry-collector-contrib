@@ -7,8 +7,8 @@ require (
 	github.com/DataDog/datadog-agent/pkg/trace v0.47.0-rc.2
 	github.com/DataDog/datadog-api-client-go/v2 v2.14.0
 	github.com/DataDog/gohai v0.0.0-20220718130825-1776f9beb9cc
-	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.5.1
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.5.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.8.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.8.0
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.5.1
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.5.1
 	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.5.1
@@ -35,12 +35,12 @@ require (
 	go.opentelemetry.io/collector/consumer v0.81.0
 	go.opentelemetry.io/collector/exporter v0.81.0
 	go.opentelemetry.io/collector/featuregate v1.0.0-rcv0013
-	go.opentelemetry.io/collector/pdata v1.0.0-rcv0013
+	go.opentelemetry.io/collector/pdata v1.0.0-rcv0014
 	go.opentelemetry.io/collector/processor v0.81.0
 	go.opentelemetry.io/collector/processor/batchprocessor v0.81.0
 	go.opentelemetry.io/collector/receiver v0.81.0
 	go.opentelemetry.io/collector/receiver/otlpreceiver v0.81.0
-	go.opentelemetry.io/collector/semconv v0.81.0
+	go.opentelemetry.io/collector/semconv v0.83.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.24.0
 	google.golang.org/protobuf v1.31.0

@@ -72,11 +72,11 @@ github.com/DataDog/go-tuf v0.3.0--fix-localmeta-fork h1:yBq5PrAtrM4yVeSzQ+bn050+
 github.com/DataDog/go-tuf v0.3.0--fix-localmeta-fork/go.mod h1:yA5JwkZsHTLuqq3zaRgUQf35DfDkpOZqgtBqHKpwrBs=
 github.com/DataDog/gohai v0.0.0-20220718130825-1776f9beb9cc h1:gtlKB6B50/UEuFm1LeMn0R5a+tubx69OecPqxfXJDmU=
 github.com/DataDog/gohai v0.0.0-20220718130825-1776f9beb9cc/go.mod h1:oyPC4jWHHjVVNjslDAKp8EqfQBaSmODjHt4HCX+C+9Q=
-github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.5.1 h1:RXPbQ18ybJL9sa1QCimtWLsgA4/TNKV4DzPgC2d0LBQ=
-github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.5.1/go.mod h1:HeMbfooddcFxWDDcJx5K6Q96tLdSoHBNMUKPrkv7VD4=
+github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.8.0 h1:1EK3s2e3Q6gLMkoEGdq8Eeu/ap/c/7nOiLQ+egs3M4s=
+github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.8.0/go.mod h1:Cx8zJKyWoK/mK5j31kwpf58wRaZFyyPxU55/MFEMRSQ=
 github.com/DataDog/opentelemetry-mapping-go/pkg/internal/sketchtest v0.5.1 h1:YlfHREq38G3WyUHWL4IodFy0gcZ1j5y3I4YISIKN4NA=
-github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.5.1 h1:7l5/t7vgEFERAqSM8mXX42dmLDipeomFi111nFAcxUk=
-github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.5.1/go.mod h1:sviba3HW4OM6td+9NL6/qav9fX76JZ7Z/nhCQpaFvuE=
+github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.8.0 h1:NNSjBdo9PlfjUKmCrjNWTxAtG7ovemO5EHT08zVpeUU=
+github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.8.0/go.mod h1:8d/zACzxfdBllttohcF3mwL6ELg8vXTGiPkib/1ObOA=
 github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.5.1 h1:U1Z1rnVPYct7QDUn3p06yYbgG0CeJdVx6FKoUVzP01s=
 github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.5.1/go.mod h1:OpsoGMUzTpiRiq1L/9TzuKkBKP4cnsVRoFn65UjEGfQ=
 github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.5.1 h1:NkXp/f+/wXApC5scaWNdkN3+7w+D2UhQMd25D/1UP2s=
@@ -749,8 +749,8 @@ go.opentelemetry.io/collector/extension/auth v0.81.0/go.mod h1:PaBFcFrzXV+UgM4VZ
 go.opentelemetry.io/collector/extension/zpagesextension v0.81.0 h1:ov3h5re95uJcF6N+vR/rLpjsEkGs6easxXSphH9UrPg=
 go.opentelemetry.io/collector/featuregate v1.0.0-rcv0013 h1:tiTUG9X/gEDN1oDYQOBVUFYQfhUG2CvgW9VhBc2uk1U=
 go.opentelemetry.io/collector/featuregate v1.0.0-rcv0013/go.mod h1:0mE3mDLmUrOXVoNsuvj+7dV14h/9HFl/Fy9YTLoLObo=
-go.opentelemetry.io/collector/pdata v1.0.0-rcv0013 h1:4sONXE9hAX+4Di8m0bQ/KaoH3Mi+OPt04cXkZ7A8W3k=
-go.opentelemetry.io/collector/pdata v1.0.0-rcv0013/go.mod h1:x09G/4KjEcDKNuWCjC5ZtnuDE0XEqiRwI+yrHSVjIy8=
+go.opentelemetry.io/collector/pdata v1.0.0-rcv0014 h1:iT5qH0NLmkGeIdDtnBogYDx7L58t6CaWGL378DEo2QY=
+go.opentelemetry.io/collector/pdata v1.0.0-rcv0014/go.mod h1:BRvDrx43kiSoUx3mr7SoA7h9B8+OY99mUK+CZSQFWW4=
 go.opentelemetry.io/collector/processor v0.81.0 h1:ypyNV5R0bnN3XGMAsH/q5eNARF5vXtFgSOK9rBWzsLc=
 go.opentelemetry.io/collector/processor v0.81.0/go.mod h1:ZDwO3DVg1VUSA92g0r/o0jYk+T7r9uxgZZ3LABJbC34=
 go.opentelemetry.io/collector/processor/batchprocessor v0.81.0 h1:qmFuxKR12Sq209MkXSelvuZDG4otMwxZW0yetHKIsj0=
@@ -759,8 +759,8 @@ go.opentelemetry.io/collector/receiver v0.81.0 h1:0c+YtIV7fmd9ev+zmwS9qjx5ASi8cw
 go.opentelemetry.io/collector/receiver v0.81.0/go.mod h1:q80JkMxVLnk0vWxoTRY2J7F4Qx9069Yy5yxDbZ4JVwk=
 go.opentelemetry.io/collector/receiver/otlpreceiver v0.81.0 h1:ewVbfATnAeQkwFK3r0dpFKCXcTb8HJKX4AixUioRt+c=
 go.opentelemetry.io/collector/receiver/otlpreceiver v0.81.0/go.mod h1:LGuSMVdOq5Zq+CEHF9YBHMaOIUZrzqW7DQGqo9g0dJA=
-go.opentelemetry.io/collector/semconv v0.81.0 h1:lCYNNo3powDvFIaTPP2jDKIrBiV1T92NK4QgL/aHYXw=
-go.opentelemetry.io/collector/semconv v0.81.0/go.mod h1:TlYPtzvsXyHOgr5eATi43qEMqwSmIziivJB2uctKswo=
+go.opentelemetry.io/collector/semconv v0.83.0 h1:zfBJaGiC7XI8dLD/8QIyKre98RHcq3DaG1g1B+U/Dow=
+go.opentelemetry.io/collector/semconv v0.83.0/go.mod h1:j/8THcqVxFna1FpvA2zYIsUperEtOaRaqoLYIN4doWw=
 go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.42.1-0.20230612162650-64be7e574a17 h1:mdcNStUIXngF/mH3xxAo4nbR4g65IXqLL1SvYMjz7JQ=
 go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.42.1-0.20230612162650-64be7e574a17/go.mod h1:N2Nw/UmmvQn0yCnaUzvsWzTWIeffYIdFteg6mxqCWII=
 go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.42.0 h1:pginetY7+onl4qN1vl0xW/V/v6OBZ0vVdH+esuJgvmM=
